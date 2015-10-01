@@ -109,9 +109,9 @@ module DAV4Rack
 
     def save
       struct = {
-        :path => path, 
-        :token => token, 
-        :timeout => timeout, 
+        :path => path,
+        :token => token,
+        :timeout => timeout,
         :depth => depth,
         :created_at => Time.now,
         :owner => owner
